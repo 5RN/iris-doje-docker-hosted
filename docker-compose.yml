@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+  iris:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: iris
+    ports:
+    - "9091:51773"
+    - "9092:52773"
+    volumes:
+    - ./ :/app
