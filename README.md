@@ -23,7 +23,7 @@ Run Angular front-end inside IRIS backend container in a single project:
 $ docker-compose up -d
 ```
 
-Once the container is up and running, go to http://localhost:9092/csp/doje/HomePage.Html -> Forms -> Freedom of Information form -> Freedom of Information Act 2014 form or directly to the [Angular UI](http://localhost:9092/csp/doje/index.html)
+Once the container is up and running, go to http://localhost:9092/csp/doje/HomePage.html -> Forms -> Freedom of Information form -> Freedom of Information Act 2014 form or directly to the [Angular UI](http://localhost:9092/csp/doje/index.html)
 
 
 IRIS backend will provide the REST endpoint to serve the angular frontend.
