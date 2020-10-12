@@ -12,68 +12,6 @@ module.exports = __webpack_require__(/*! /Users/krakshit/SRC/GitHub/doje-public-
 
 /***/ }),
 
-/***/ "2MD/":
-/*!***************************************************!*\
-  !*** ./src/app/shared/path-location.component.ts ***!
-  \***************************************************/
-/*! exports provided: PathLocationComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PathLocationComponent", function() { return PathLocationComponent; });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common */ "ofXK");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
-
-
-
-class PathLocationComponent {
-    constructor(location) {
-        this.location = location;
-    }
-}
-PathLocationComponent.ɵfac = function PathLocationComponent_Factory(t) { return new (t || PathLocationComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["Location"])); };
-PathLocationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: PathLocationComponent, selectors: [["path-location"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵProvidersFeature"]([_angular_common__WEBPACK_IMPORTED_MODULE_0__["Location"], { provide: _angular_common__WEBPACK_IMPORTED_MODULE_0__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_0__["PathLocationStrategy"] }])], decls: 13, vars: 2, template: function PathLocationComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "PathLocationStrategy");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, " Current URL is: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "code");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, " Normalize: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "code");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "/foo/bar/");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " is: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "code");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](12, "br");
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.location.path());
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.location.normalize("foo/bar"));
-    } }, encapsulation: 2 });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](PathLocationComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
-        args: [{
-                selector: 'path-location',
-                providers: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["Location"], { provide: _angular_common__WEBPACK_IMPORTED_MODULE_0__["LocationStrategy"], useClass: _angular_common__WEBPACK_IMPORTED_MODULE_0__["PathLocationStrategy"] }],
-                template: `
-    <h1>PathLocationStrategy</h1>
-    Current URL is: <code>{{location.path()}}</code><br>
-    Normalize: <code>/foo/bar/</code> is: <code>{{location.normalize('foo/bar')}}</code><br>
-  `
-            }]
-    }], function () { return [{ type: _angular_common__WEBPACK_IMPORTED_MODULE_0__["Location"] }]; }, null); })();
-
-
-/***/ }),
-
 /***/ "6P1q":
 /*!*****************************************!*\
   !*** ./src/app/application/eircodes.ts ***!
@@ -598,7 +536,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 23, vars: 0, consts: [["fullscreen", ""], ["sidenav", ""], [3, "click"], ["mat-list-item", "", "routerLink", "/home"], ["mat-list-item", "", "routerLink", "/application"], ["color", "white", 2, "height", "100px"], ["mat-icon-button", "", 1, "menu-button", 3, "click"], [1, "left"], ["src", "assets/img/justice-doj_logo-new.jpg", "width", "200"], [1, "main-content"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 23, vars: 0, consts: [["fullscreen", ""], ["sidenav", ""], [3, "click"], ["mat-list-item", "", "routerLink", "/home"], ["mat-list-item", "", "routerLink", "/application"], ["color", "white", 2, "height", "100px"], ["mat-icon-button", "", 1, "menu-button", 3, "click"], [1, "left"], ["src", "/csp/doje/assets/img/justice-doj_logo-new.jpg", "width", "200"], [1, "main-content"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-sidenav-container", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-sidenav", null, 1);
@@ -672,8 +610,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _application_application_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./application/application.component */ "j4it");
 /* harmony import */ var _shared_email_validator_email_validator_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./shared/email-validator/email-validator.component */ "kXRW");
 /* harmony import */ var _messages_messages_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./messages/messages.component */ "DruN");
-/* harmony import */ var _shared_path_location_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./shared/path-location.component */ "2MD/");
-
 
 
 
@@ -701,8 +637,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
         _application_application_component__WEBPACK_IMPORTED_MODULE_8__["ApplicationComponent"],
         _shared_email_validator_email_validator_component__WEBPACK_IMPORTED_MODULE_9__["EmailValidator"],
-        _messages_messages_component__WEBPACK_IMPORTED_MODULE_10__["MessagesComponent"],
-        _shared_path_location_component__WEBPACK_IMPORTED_MODULE_11__["PathLocationComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _messages_messages_component__WEBPACK_IMPORTED_MODULE_10__["MessagesComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"],
@@ -716,8 +651,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
                     _application_application_component__WEBPACK_IMPORTED_MODULE_8__["ApplicationComponent"],
                     _shared_email_validator_email_validator_component__WEBPACK_IMPORTED_MODULE_9__["EmailValidator"],
-                    _messages_messages_component__WEBPACK_IMPORTED_MODULE_10__["MessagesComponent"],
-                    _shared_path_location_component__WEBPACK_IMPORTED_MODULE_11__["PathLocationComponent"]
+                    _messages_messages_component__WEBPACK_IMPORTED_MODULE_10__["MessagesComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
